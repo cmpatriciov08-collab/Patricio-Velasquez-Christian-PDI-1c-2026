@@ -1,4 +1,60 @@
+# Trabajo Práctico 006 — Fotografía Digital  
+## De la cámara oscura a la imagen intencional  
+**Entrega mediante GitHub**
 
+---
+
+## Objetivos
+
+Este trabajo práctico propone integrar:
+
+- principios ópticos
+- captura fotográfica
+- composición visual
+- análisis técnico de la imagen
+- postprocesamiento digital
+- reflexión crítica sobre la construcción visual
+
+El objetivo **no** es producir fotografías “bonitas” en un sentido decorativo, sino desarrollar:
+
+> **intención + decisión técnica + lectura visual + postproceso consciente**
+
+Cada estudiante deberá producir una serie de imágenes aplicando los conceptos trabajados durante la cursada:
+
+- cámara oscura
+- exposición
+- composición
+- punto de vista
+- simplificación visual
+- luz
+- reencuadre
+- espacios de color
+- procesamiento digital de imágenes
+
+---
+
+## Modalidad de entrega
+
+La entrega debe realizarse mediante un repositorio **GitHub**.  
+Dentro del repositorio debe existir una carpeta llamada:
+
+### Estructura de la carpeta
+006_fotografia_digital/
+│
+├── README.md
+├── presentacion.pdf
+├── imagenes/
+│ ├── originales/
+│ ├── procesadas/
+│ └── descartes/
+│
+├── codigo/
+│ ├── ecualizacion_hsv.py
+│ ├── escala_grises.py
+│ └── otros_scripts.py
+│
+└── recursos/
+└── referencias_opcionales/
 ---
 
 ## Archivo principal obligatorio: `presentacion.pdf`
