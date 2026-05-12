@@ -39,23 +39,24 @@ La entrega debe realizarse mediante un repositorio **GitHub**.
 Dentro del repositorio debe existir una carpeta llamada:
 
 ### Estructura de la carpeta
+```
 006_fotografia_digital/
 │
 ├── README.md
 ├── presentacion.pdf
 ├── imagenes/
-│ ├── originales/
-│ ├── procesadas/
-│ └── descartes/
+│   ├── originales/
+│   ├── procesadas/
+│   └── descartes/
 │
 ├── codigo/
-│ ├── ecualizacion_hsv.py
-│ ├── escala_grises.py
-│ └── otros_scripts.py
+│   ├── ecualizacion_hsv.py
+│   ├── escala_grises.py
+│   └── otros_scripts.py
 │
 └── recursos/
-└── referencias_opcionales/
----
+    └── referencias_opcionales/
+```
 
 ## Archivo principal obligatorio: `presentacion.pdf`
 
