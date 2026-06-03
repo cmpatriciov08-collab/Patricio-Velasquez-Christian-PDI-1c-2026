@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Unidad 008 — Visión Artificial Aplicada
+# Tecnicatura Superior en Ciencias de Datos e IA — IFTS24
+# Procesamiento Digital de Imágenes
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ─── Visión artificial — MediaPipe ────────────────────────────────────────────
+mediapipe>=0.10.0
+opencv-python-headless>=4.8.0
+
+# ─── Interfaz web — Gradio ────────────────────────────────────────────────────
+gradio>=4.0.0
+
+# ─── Núcleo científico ────────────────────────────────────────────────────────
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# ─── Solo Windows — control de volumen del sistema (notebook 02) ─────────────
+# Descomentá las dos líneas siguientes si estás en Windows y querés usar
+# el control de volumen por gestos del notebook 02_Control_Volumen_con_Manos:
+# pycaw>=20181226
+# comtypes>=1.2.0
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+jupyterlab>=4.0.0
