@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Unidad 007 — Redes Neuronales (Parte 2)
+# Tecnicatura Superior en Ciencias de Datos e IA — IFTS24
+# Procesamiento Digital de Imágenes
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ─── Núcleo científico ────────────────────────────────────────────────────────
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+requests>=2.31.0
+pillow>=9.0.0
+
+# ─── Deep Learning — TensorFlow / Keras ──────────────────────────────────────
+tensorflow>=2.15.0
+tensorflow-datasets>=4.9.0
+
+# ─── Deep Learning — PyTorch (modelos preentrenados, ResNet18) ───────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ─── Hugging Face ─────────────────────────────────────────────────────────────
+transformers>=4.35.0
+datasets>=2.14.0
+gradio>=4.0.0
+
+# ─── Visión artificial ────────────────────────────────────────────────────────
+opencv-python-headless>=4.8.0
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+jupyterlab>=4.0.0
