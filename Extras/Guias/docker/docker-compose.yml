@@ -1,0 +1,19 @@
+services:
+  jupyter:
+    build: .
+    image: utn-jupyter:latest
+    container_name: utn_jupyter
+    user: "${UID:-1000}:${GID:-1000}"
+    ports:
+      - "8000:7865"
+      - "7860-7870:7860-7870"
+    volumes:
+      - ./notebooks:/notebooks
+    environment:
+      - JUPYTER_TOKEN=clase
+      - HOME=/tmp
+      - JUPYTER_RUNTIME_DIR=/tmp/jupyter/runtime
+      - JUPYTER_CONFIG_DIR=/tmp/jupyter/config
+      - JUPYTER_DATA_DIR=/tmp/jupyter/data
+      - XDG_CACHE_HOME=/tmp/.cache
+    restart: unless-stopped

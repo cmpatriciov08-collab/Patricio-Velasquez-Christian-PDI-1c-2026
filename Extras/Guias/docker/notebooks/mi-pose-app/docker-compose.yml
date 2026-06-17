@@ -1,0 +1,9 @@
+services:
+  pose-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mi-pose-app
+    ports:
+      - "7865:7865"
+    restart: unless-stopped
