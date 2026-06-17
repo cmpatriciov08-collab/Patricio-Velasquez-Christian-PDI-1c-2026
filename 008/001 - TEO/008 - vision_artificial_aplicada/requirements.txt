@@ -6,6 +6,7 @@
 
 # ─── Visión artificial — MediaPipe ────────────────────────────────────────────
 mediapipe>=0.10.0
+#mediapipe==0.10.14, # Última versión compatible con Python 3.10 (recomendada para Windows)
 opencv-python-headless>=4.8.0
 
 # ─── Interfaz web — Gradio ────────────────────────────────────────────────────
