@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision_artificial_aplicada"
+version = "0.1.0"
+description = "Unidad 008 — Visión Artificial Aplicada — MediaPipe, OpenCV, Gradio"
+requires-python = ">=3.10"
+
+[tool.uv]
+# Usar copia en lugar de hardlinks para evitar problemas con Windows y sistemas de archivos en nube
+link-mode = "copy"
