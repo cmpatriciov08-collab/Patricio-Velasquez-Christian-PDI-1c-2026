@@ -6,7 +6,6 @@
 
 # ─── Visión artificial — MediaPipe ────────────────────────────────────────────
 mediapipe>=0.10.0
-#mediapipe==0.10.14, # Última versión compatible con Python 3.10 (recomendada para Windows)
 opencv-python-headless>=4.8.0
 
 # ─── Interfaz web — Gradio ────────────────────────────────────────────────────
@@ -19,8 +18,8 @@ matplotlib>=3.7.0
 # ─── Solo Windows — control de volumen del sistema (notebook 02) ─────────────
 # Descomentá las dos líneas siguientes si estás en Windows y querés usar
 # el control de volumen por gestos del notebook 02_Control_Volumen_con_Manos:
-pycaw>=20181226
-comtypes>=1.2.0
+# pycaw>=20181226
+# comtypes>=1.2.0
 
 # ─── Jupyter ──────────────────────────────────────────────────────────────────
 jupyterlab>=4.0.0
